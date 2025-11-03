@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import AboutPage from "./about/page";
 
 export default function HomePage() {
   return (
@@ -44,8 +43,6 @@ export default function HomePage() {
         </a>
       </motion.div>
     </section>
-    <AboutPage
-    />
     </>
   );
 }
