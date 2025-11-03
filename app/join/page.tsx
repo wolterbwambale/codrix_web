@@ -1,4 +1,5 @@
-
+"use client";
+import { motion } from "framer-motion";
 export default function JoinPage() {
   return (
     <div className="max-w-3xl mx-auto py-20 px-6 text-center">
