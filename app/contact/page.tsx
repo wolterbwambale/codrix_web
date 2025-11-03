@@ -7,12 +7,10 @@ import { ContactForm } from "@/components/ContactForm";
 export default function ContactPage() {
   return (
     <section className="relative min-h-screen flex flex-col justify-center items-center bg-[#060b16] text-white overflow-hidden">
-      {/* Background Layers */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f] via-[#0b1e38] to-[#060b16]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_80%,rgba(59,130,246,0.12),transparent_70%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(147,51,234,0.08),transparent_70%)]" />
 
-      {/* Content Grid */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -20,7 +18,7 @@ export default function ContactPage() {
         viewport={{ once: true }}
         className="relative z-10 max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-20 items-center"
       >
-        {/* Left: Illustration + Text */}
+
         <div className="space-y-10 text-center lg:text-left">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -40,7 +38,6 @@ export default function ContactPage() {
             Got a project or idea? We’re here to turn your vision into a seamless digital experience.
           </motion.p>
 
-          {/* Floating Tech Illustration */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -70,7 +67,6 @@ export default function ContactPage() {
           </motion.div>
         </div>
 
-        {/* Right: Contact Form */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -83,8 +79,7 @@ export default function ContactPage() {
           <ContactForm />
         </motion.div>
       </motion.div>
-
-      {/* Bottom Glow */}
+      
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-3xl" />
     </section>
   );
