@@ -1,6 +1,6 @@
 "use client";
-import IntroSection from "@/components/IntroSection";
 import { motion } from "framer-motion";
+import AboutPage from "./about/page";
 
 export default function HomePage() {
   return (
@@ -37,14 +37,15 @@ export default function HomePage() {
         </motion.p>
 
         <a
-          href="#services"
+          href="/services"
           className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition"
         >
           Explore Our Services
         </a>
       </motion.div>
     </section>
-    <IntroSection />
+    <AboutPage
+    />
     </>
   );
 }
