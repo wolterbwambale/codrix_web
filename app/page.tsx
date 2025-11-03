@@ -1,8 +1,10 @@
 "use client";
+import { IntroSection } from "@/components/IntroSection";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
+    <>
     <section className="relative flex flex-col items-center justify-center text-center h-screen overflow-hidden">
       <video
         autoPlay
@@ -42,5 +44,7 @@ export default function HomePage() {
         </a>
       </motion.div>
     </section>
+    <IntroSection />
+    </>
   );
 }
