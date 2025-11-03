@@ -1,5 +1,5 @@
 "use client";
-import { IntroSection } from "@/components/IntroSection";
+import IntroSection from "@/components/IntroSection";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
