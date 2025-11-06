@@ -35,6 +35,7 @@ export default function JoinTeamSection() {
           </div>
         </motion.div>
 
+
         {/* Right: Content */}
         <motion.div
           initial={{ opacity: 0, x: 30 }}
