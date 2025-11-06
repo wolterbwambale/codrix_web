@@ -29,7 +29,7 @@ export default function HomePage() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-2xl md:text-3xl font-bold max-w-3xl mx-auto mb-8 text-blue-400 drop-shadow-[0_0_15px_rgba(37,99,235,0.6)]"
+          className="text-xl md:text-3xl font-bold max-w-3xl mx-auto mb-8 text-blue-400 drop-shadow-[0_0_15px_rgba(37,99,235,0.6)]"
         >
           Dream Big. Grow Great. <br />
           Start building your website today!
