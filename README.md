@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Codrix Website
 
-## Getting Started
+Codrix is a professional tech solutions website showcasing services, team, and contact options. Built with modern front-end technologies for a responsive and interactive experience.
 
-First, run the development server:
+🔗 **Live Demo:** [https://codri.netlify.app](https://codri.netlify.app)
+
+---
+
+## 🛠 Built With
+
+- **Next.js & React** – Modern front-end framework for fast, dynamic pages  
+- **Tailwind CSS** – Clean and responsive styling  
+- **Framer Motion** – Smooth animations and interactions  
+- **React Icons / Lucide** – Scalable icons  
+- **Node.js & NPM** – Development environment  
+
+---
+
+## 💻 Getting Started
+
+Clone the repository and run the project locally:
 
 ```bash
+git clone https://github.com/wolterbwambale/codrix-website.git
+cd codrix-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 to see the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌟 Features
+Responsive navigation bar with mobile support
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Animated sections for services, team, and contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interactive contact form with floating labels and validation
 
-## Learn More
+Footer with social links and copyright
 
-To learn more about Next.js, take a look at the following resources:
+Modern gradient and ambient effects for professional look
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👥 Authors
+Bwambale Benny Wolter – GitHub – LinkedIn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔭 Future Enhancements
+CMS integration for dynamic content updates
 
-## Deploy on Vercel
+Multi-language support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Improved SEO and analytics tracking
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dark/Light mode toggle
+
+📝 License
+This project is MIT licensed.
